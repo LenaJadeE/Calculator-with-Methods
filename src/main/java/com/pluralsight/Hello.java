@@ -1,10 +1,14 @@
 package com.pluralsight;
 
 public class Hello {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        sayHello();
+        sayGoodbye();
+        sayGoodMorning();
+    }
 
-
-
+    public static void sayHello() {
+        System.out.println("Hello, World!");
     }
 }
 
