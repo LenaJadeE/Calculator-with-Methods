@@ -2,21 +2,25 @@ package com.pluralsight;
 
 
 public class CompareNumbers {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //      Even Numbers
         System.out.println(isEven(5));
         System.out.println(isEven(10));
 
 //      Positive Number
         System.out.println(isPositive(3.5));
-        System.out.println(isPositive(-2,0));
+        System.out.println(isPositive(-2.0));
         System.out.println(isPositive(0));
 
+    }
 
+    public static boolean isEven(int number) {
+        return number > 0;
 
+    }
 
-
-
+    public static boolean isPositive(double number) {
+        return number > 0;
 
     }
 }
