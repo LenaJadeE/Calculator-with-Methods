@@ -5,12 +5,17 @@ public class Format {
 
         System.out.println(formatName("Bob","Smith"));
 
+//        Store the returned value in a variable, then print it
         String formattedName = formatName("Bob", "Smith");
         System.out.println(formattedName);
 
-
+    }
+public static String formatName(String first, String last) {
+      String fullName = last + ", " + first;
+      return fullName;
 
     }
+
 }
 
 
